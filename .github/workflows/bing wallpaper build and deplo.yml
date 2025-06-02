@@ -41,6 +41,14 @@ jobs:
         run: |
           git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT 
           
+      - name: Deploy to hefung/docs
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: ./.vitepress/dist
+          token: ${{ secrets.PUBLISH_DOCS }}
+          single-commit: true  
+        
       - name: 部署到 GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
