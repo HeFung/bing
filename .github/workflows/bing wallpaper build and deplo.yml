@@ -39,15 +39,19 @@ jobs:
       - name: Check if there are any changes
         id: verify_diff
         run: |
-          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT  
-
-      - name: deploy to pages
-        uses: peaceiris/actions-gh-pages@v4
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT 
+          
+      - name: 部署到 GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: hefung/bing
-          publish_dir: ./.vitepress/dist
-          publish_branch: pages   
+            # 部署到 gh-pages 分支
+           target_branch: gh-pages
+            # 部署目录为 VuePress 的默认输出目录
+           build_dir: .vuepress/dist
+        env:
+            # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+           GITHUB_TOKEN: ${{ secrets.PUBLISH_DOCS }}
+          
 
       - name: 提交项目 🐱‍🏍
         if: steps.verify_diff.outputs.changed == 'true'
