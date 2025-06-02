@@ -37,7 +37,7 @@ export default defineConfig({
       ['meta', { name: 'og:description', content: '必应每日超清壁纸（4K）' }],
   ],
 
-  base: '/',
+  base: '/bing/',
   srcDir: 'docs',
   lastUpdated: true,
   cleanUrls: true,
