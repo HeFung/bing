@@ -10,15 +10,10 @@ env:
 jobs:
   build-project:
     name: Bing Wallpaper Build And Deploy
-    if: github.repository == 'hefung/bing'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4 
-        with:
-          fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
       - name: install pnpm
         uses: pnpm/action-setup@v4
@@ -30,9 +25,7 @@ jobs:
           cache: pnpm
 
       - name: install deploy
-        run: |
-          corepack enable
-          pnpm install --frozen-lockfile
+        run:  pnpm install --frozen-lockfile
 
       - name: build project
         env:
