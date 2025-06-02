@@ -44,6 +44,7 @@ jobs:
       - name: Deploy to hefung/docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          repository-name: hefung/bing
           branch: gh-pages
           folder: ./.vitepress/dist
           token: ${{ secrets.PUBLISH_DOCS }}
