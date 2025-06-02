@@ -48,19 +48,7 @@ jobs:
           folder: ./.vitepress/dist
           token: ${{ secrets.PUBLISH_DOCS }}
           single-commit: true  
-        
-      - name: 部署到 GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-            # 部署到 gh-pages 分支
-           target_branch: gh-pages
-            # 部署目录为 VuePress 的默认输出目录
-           build_dir: ./.vuepress/dist
-        env:
-            # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-           GITHUB_TOKEN: ${{ secrets.PUBLISH_DOCS }}
-          
-
+      
       - name: 提交项目 🐱‍🏍
         if: steps.verify_diff.outputs.changed == 'true'
         run: | 
