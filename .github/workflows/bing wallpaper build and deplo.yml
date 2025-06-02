@@ -46,7 +46,7 @@ jobs:
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
           external_repository: hefung/bing
-          publish_dir: .vitepress/dist
+          publish_dir: ./.vitepress/dist
           publish_branch: pages   
 
       - name: 提交项目 🐱‍🏍
