@@ -243,12 +243,12 @@ function writeDocs(
       `[Download 1920 * 1080](${item.url_1080}) | [Download 3840 * 2160](${item.url_4k})\n\n`
     );
   });
-  writeFile("./docs/archives/index.md", writeDataList.join(""), (err) => {
-      if (err) {
+  writeFile("./docs/index.md", writeDataList.join(""), (err) => {
+    if (err) {
       console.log(err)
       throw err
     }
-    console.log(`Done: Write ./docs/archives/index.md completed!`)
+    console.log(`Done: Write ./docs/index.md completed!`)
   });
   writeDocsArchive(info, archives);
   writeSidebar(archives);
@@ -308,7 +308,7 @@ function writeSidebar(archives: ArchivesInfo[]) {
       });
     }
   });
-   Object.keys(archiveMap).forEach(k => {
+  Object.keys(archiveMap).forEach(k => {
     sidebar.push({
       text: k,
       collapsed: false,
@@ -316,7 +316,7 @@ function writeSidebar(archives: ArchivesInfo[]) {
     })
   })
   sidebar.sort((a, b) => +b.text - +a.text);
-  
+
   const sidebarDate = 'export default ' + JSON.stringify(sidebar)
   writeFile(`.vitepress/sidebar.ts`, sidebarDate, err => {
     if (err) {
