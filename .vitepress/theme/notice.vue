@@ -61,15 +61,12 @@ setTimeout(function () {
     </div>
 
     <div class="bulletin-content">
-      <h3 class="bulletin-h3">本次更新：</h3>
-      <p class="bulletin-p">
-        公告样式，参考自      
-      </p>
-      <p class="bulletin-p">QQ 频道：******(无效二维码)</p>
-      <img class="bulletin-img" src="./qrcode.png" />
+      <h3 class="bulletin-h3">赞赏：扫码赞助我们</h3>      
+      <hr />
+      <img class="bulletin-img" src="/alipay.png" />
       <hr />
       <div class="btn-group">
-        <a class="btn" href="https://vitepress.dev/zh/" target="_blank">官网</a>
+        <a class="btn" href="/" target="_blank">作者</a>
       </div>
     </div>
   </div>
