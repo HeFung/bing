@@ -294,7 +294,7 @@ function writeDocsArchive(info: PictureInfo, archives: ArchivesInfo[]) {
 }
 
 function writeSidebar(archives: ArchivesInfo[]) {
-  const sidebar: SidebarItem[] = [{ text: "最近更新 31", link: "/archives/" }];
+  const sidebar: SidebarItem[] = [{ text: "最近更新 31", link: "/" }];
   const archiveMap: Record<string, SidebarItem[]> = {};
   archives.forEach((item) => {
     const year = item.date.split("-")[0];
