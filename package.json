@@ -1,25 +1,31 @@
 {
-  "name": "hefung",
+  "name": "bing",
   "version": "2.2.1",
-  "description": "记录 & 分享个人技术知识内容",
+  "description": "auto fetch bing daily pictures",
   "main": "dist/main.js",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview ",
-    "serve": "vitepress serve"
+    "build": "tsup && node ./dist/main.js",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview ",
+    "docs:serve": "vitepress serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hefung/hefung.github.io.git"
+    "url": "git+https://github.com/hefung/bing.git"
   },
   "devDependencies": {
-    "canvas-confetti": "^1.9.4",
+    "node-fetch": "^3.3.2",
     "prettier": "3.5.0",
-    "sass-embedded": "^1.93.3",
+    "sass-embedded": "^1.86.0",
+    "tsup": "^8.4.0",
     "typescript": "^4.9.5",
-    "vitepress": "^1.6.4"
+    "@types/node": "^22.13.14",
+    "@types/node-fetch": "^2.6.12",
+    "canvas-confetti": "^1.9.3",
+    "vitepress-plugin-image-viewer": "^1.1.6",
+    "vitepress": "^1.6.3"
   },
   "engines": {
     "node": ">=20"
