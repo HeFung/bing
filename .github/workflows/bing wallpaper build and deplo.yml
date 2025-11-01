@@ -28,7 +28,9 @@ jobs:
           cache: pnpm
 
       - name: install deploy
-        run:  pnpm install
+        run:  |
+          pnpm update
+          pnpm install
 
       - name: build project
         env:
