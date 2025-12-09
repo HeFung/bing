@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^22.19.1
-        version: 22.19.1
+        specifier: ^22.19.2
+        version: 22.19.2
       '@types/node-fetch':
         specifier: ^2.6.13
         version: 2.6.13
@@ -34,7 +34,7 @@ importers:
         version: 4.9.5
       vitepress:
         specifier: ^1.6.4
-        version: 1.6.4(@algolia/client-search@5.46.0)(@types/node@22.19.1)(postcss@8.5.6)(sass-embedded@1.93.3)(sass@1.93.3)(search-insights@2.17.3)(typescript@4.9.5)
+        version: 1.6.4(@algolia/client-search@5.46.0)(@types/node@22.19.2)(postcss@8.5.6)(sass-embedded@1.93.3)(sass@1.93.3)(search-insights@2.17.3)(typescript@4.9.5)
       vitepress-plugin-image-viewer:
         specifier: ^1.1.6
         version: 1.1.6
@@ -710,8 +710,8 @@ packages:
   '@types/node-fetch@2.6.13':
     resolution: {integrity: sha512-QGpRVpzSaUs30JBSGPjOg4Uveu384erbHBoT1zeONvyCfwQxIkUshLAOqN/k9EjGviPRmWTTe6aH2qySWKTVSw==}
 
-  '@types/node@22.19.1':
-    resolution: {integrity: sha512-LCCV0HdSZZZb34qifBsyWlUmok6W7ouER+oQIGBScS8EsZsQbrtFTUrDX4hOl+CS6p7cnNC4td+qrSVGSCTUfQ==}
+  '@types/node@22.19.2':
+    resolution: {integrity: sha512-LPM2G3Syo1GLzXLGJAKdqoU35XvrWzGJ21/7sgZTUpbkBaOasTj8tjwn6w+hCkqaa1TfJ/w67rJSwYItlJ2mYw==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1228,8 +1228,8 @@ packages:
   regex-utilities@2.3.0:
     resolution: {integrity: sha512-8VhliFJAWRaUiVvREIiW2NXXTmHs4vMNnSzuJVhscgmGav3g9VDxLrQndI3dZZVVdp0ZO/5v0xmX516/7M9cng==}
 
-  regex@6.0.1:
-    resolution: {integrity: sha512-uorlqlzAKjKQZ5P+kTJr3eeJGSVroLKoHmquUj4zHWuR+hEyNqlXsSKlYYF5F4NI6nl7tWCs0apKJ0lmfsXAPA==}
+  regex@6.1.0:
+    resolution: {integrity: sha512-6VwtthbV4o/7+OaAF9I5L5V3llLEsoPyq9P1JVXkedTP33c7MfCG0/5NOPcSJn0TzXcG9YUrR0gQSWioew3LDg==}
 
   resolve-from@5.0.0:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
@@ -2065,10 +2065,10 @@ snapshots:
 
   '@types/node-fetch@2.6.13':
     dependencies:
-      '@types/node': 22.19.1
+      '@types/node': 22.19.2
       form-data: 4.0.5
 
-  '@types/node@22.19.1':
+  '@types/node@22.19.2':
     dependencies:
       undici-types: 6.21.0
 
@@ -2078,9 +2078,9 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@22.19.1)(sass-embedded@1.93.3)(sass@1.93.3))(vue@3.5.25(typescript@4.9.5))':
+  '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@22.19.2)(sass-embedded@1.93.3)(sass@1.93.3))(vue@3.5.25(typescript@4.9.5))':
     dependencies:
-      vite: 5.4.21(@types/node@22.19.1)(sass-embedded@1.93.3)(sass@1.93.3)
+      vite: 5.4.21(@types/node@22.19.2)(sass-embedded@1.93.3)(sass@1.93.3)
       vue: 3.5.25(typescript@4.9.5)
 
   '@vue/compiler-core@3.5.25':
@@ -2561,7 +2561,7 @@ snapshots:
   oniguruma-to-es@3.1.1:
     dependencies:
       emoji-regex-xs: 1.0.0
-      regex: 6.0.1
+      regex: 6.1.0
       regex-recursion: 6.0.2
 
   pathe@2.0.3: {}
@@ -2609,7 +2609,7 @@ snapshots:
 
   regex-utilities@2.3.0: {}
 
-  regex@6.0.1:
+  regex@6.1.0:
     dependencies:
       regex-utilities: 2.3.0
 
@@ -2897,13 +2897,13 @@ snapshots:
 
   viewerjs@1.11.7: {}
 
-  vite@5.4.21(@types/node@22.19.1)(sass-embedded@1.93.3)(sass@1.93.3):
+  vite@5.4.21(@types/node@22.19.2)(sass-embedded@1.93.3)(sass@1.93.3):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.6
       rollup: 4.53.3
     optionalDependencies:
-      '@types/node': 22.19.1
+      '@types/node': 22.19.2
       fsevents: 2.3.3
       sass: 1.93.3
       sass-embedded: 1.93.3
@@ -2912,7 +2912,7 @@ snapshots:
     dependencies:
       viewerjs: 1.11.7
 
-  vitepress@1.6.4(@algolia/client-search@5.46.0)(@types/node@22.19.1)(postcss@8.5.6)(sass-embedded@1.93.3)(sass@1.93.3)(search-insights@2.17.3)(typescript@4.9.5):
+  vitepress@1.6.4(@algolia/client-search@5.46.0)(@types/node@22.19.2)(postcss@8.5.6)(sass-embedded@1.93.3)(sass@1.93.3)(search-insights@2.17.3)(typescript@4.9.5):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.46.0)(search-insights@2.17.3)
@@ -2921,7 +2921,7 @@ snapshots:
       '@shikijs/transformers': 2.5.0
       '@shikijs/types': 2.5.0
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 5.2.4(vite@5.4.21(@types/node@22.19.1)(sass-embedded@1.93.3)(sass@1.93.3))(vue@3.5.25(typescript@4.9.5))
+      '@vitejs/plugin-vue': 5.2.4(vite@5.4.21(@types/node@22.19.2)(sass-embedded@1.93.3)(sass@1.93.3))(vue@3.5.25(typescript@4.9.5))
       '@vue/devtools-api': 7.7.9
       '@vue/shared': 3.5.25
       '@vueuse/core': 12.8.2(typescript@4.9.5)
@@ -2930,7 +2930,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 2.5.0
-      vite: 5.4.21(@types/node@22.19.1)(sass-embedded@1.93.3)(sass@1.93.3)
+      vite: 5.4.21(@types/node@22.19.2)(sass-embedded@1.93.3)(sass@1.93.3)
       vue: 3.5.25(typescript@4.9.5)
     optionalDependencies:
       postcss: 8.5.6
