@@ -989,8 +989,8 @@ packages:
   fix-dts-default-cjs-exports@1.0.1:
     resolution: {integrity: sha512-pVIECanWFC61Hzl2+oOCtoJ3F17kglZC/6N94eRWycFgBH35hHx0Li604ZIzhseh97mf2p0cv7vVrOZGoqhlEg==}
 
-  focus-trap@7.7.0:
-    resolution: {integrity: sha512-DJJDHpEgoSbP8ZE1MNeU2IzCpfFyFdNZZRilqmfH2XiQsPK6PtD8AfJqWzEBudUQB2yHwZc5iq54rjTaGQ+ljw==}
+  focus-trap@7.7.1:
+    resolution: {integrity: sha512-Pkp8m55GjxBLnhBoT6OXdMvfRr4TjMAKLvFM566zlIryq5plbhaTmLAJWTGR0EkRwLjEte1lCOG9MxF1ipJrOg==}
 
   form-data@4.0.5:
     resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
@@ -1405,8 +1405,8 @@ packages:
     resolution: {integrity: sha512-GTt8rSKje5FilG+wEdfCkOcLL7LWqpMlr2c3LRuKt/YXxcJ52aGSbGBAdI4L3aaqfrBt6y711El53ItyH1NWzg==}
     engines: {node: '>=16.0.0'}
 
-  tabbable@6.3.0:
-    resolution: {integrity: sha512-EIHvdY5bPLuWForiR/AN2Bxngzpuwn1is4asboytXtpTgsArc+WmSJKVLlhdh71u7jFcryDqB2A8lQvj78MkyQ==}
+  tabbable@6.4.0:
+    resolution: {integrity: sha512-05PUHKSNE8ou2dwIxTngl4EzcnsCDZGJ/iCLtDflR/SHB/ny14rXc+qU5P4mG9JkusiV7EivzY9Mhm55AzAvCg==}
 
   thenify-all@1.6.0:
     resolution: {integrity: sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA==}
@@ -2164,13 +2164,13 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@vueuse/integrations@12.8.2(focus-trap@7.7.0)(typescript@4.9.5)':
+  '@vueuse/integrations@12.8.2(focus-trap@7.7.1)(typescript@4.9.5)':
     dependencies:
       '@vueuse/core': 12.8.2(typescript@4.9.5)
       '@vueuse/shared': 12.8.2(typescript@4.9.5)
       vue: 3.5.26(typescript@4.9.5)
     optionalDependencies:
-      focus-trap: 7.7.0
+      focus-trap: 7.7.1
     transitivePeerDependencies:
       - typescript
 
@@ -2377,9 +2377,9 @@ snapshots:
       mlly: 1.8.0
       rollup: 4.54.0
 
-  focus-trap@7.7.0:
+  focus-trap@7.7.1:
     dependencies:
-      tabbable: 6.3.0
+      tabbable: 6.4.0
 
   form-data@4.0.5:
     dependencies:
@@ -2796,7 +2796,7 @@ snapshots:
 
   sync-message-port@1.1.3: {}
 
-  tabbable@6.3.0: {}
+  tabbable@6.4.0: {}
 
   thenify-all@1.6.0:
     dependencies:
@@ -2925,8 +2925,8 @@ snapshots:
       '@vue/devtools-api': 7.7.9
       '@vue/shared': 3.5.26
       '@vueuse/core': 12.8.2(typescript@4.9.5)
-      '@vueuse/integrations': 12.8.2(focus-trap@7.7.0)(typescript@4.9.5)
-      focus-trap: 7.7.0
+      '@vueuse/integrations': 12.8.2(focus-trap@7.7.1)(typescript@4.9.5)
+      focus-trap: 7.7.1
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 2.5.0
