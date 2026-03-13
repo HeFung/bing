@@ -20,7 +20,7 @@ export default defineConfig({
     }
   },
   sitemap: {
-    hostname: 'https://vitepress.dev',
+    hostname: 'https://hefung.github.io/bing/',
     transformItems(items) {
       return items.filter((item) => !item.url.includes('migration'))
     }
@@ -51,7 +51,7 @@ export default defineConfig({
     outline: 'deep', // 索引级别
     outlineTitle: '本页目录', // 目录文本
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/HeFung/bing' }
     ],
     
     lastUpdated: {
