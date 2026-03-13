@@ -5,6 +5,8 @@ on:
   workflow_dispatch:  
   schedule:
     - cron: "00 16 * * *"  
+permissions:
+  contents: write      
 env:
   TZ: Asia/Shanghai
 jobs:
