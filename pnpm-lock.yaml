@@ -1518,8 +1518,8 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
-  viewerjs@1.11.7:
-    resolution: {integrity: sha512-0JuVqOmL5v1jmEAlG5EBDR3XquxY8DWFQbFMprOXgaBB0F7Q/X9xWdEaQc59D8xzwkdUgXEMSSknTpriq95igg==}
+  viewerjs@1.11.8:
+    resolution: {integrity: sha512-PLO477UwNThzMek7EQhr7+YONfbgFKj+E6J/+Vr+USzY6cN1WNGQcft0mlIepQXATquvDmH1dOx7aokNyOx/vw==}
 
   vite@5.4.21:
     resolution: {integrity: sha512-o5a9xKjbtuhY6Bi5S3+HvbRERmouabWbyUcpXXUA1u+GNUKoROi9byOJ8M0nHbHYHkYICiMlqxkg1KkYmm25Sw==}
@@ -2911,7 +2911,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  viewerjs@1.11.7: {}
+  viewerjs@1.11.8: {}
 
   vite@5.4.21(@types/node@22.20.1)(sass-embedded@1.100.0)(sass@1.100.0):
     dependencies:
@@ -2926,7 +2926,7 @@ snapshots:
 
   vitepress-plugin-image-viewer@1.1.6:
     dependencies:
-      viewerjs: 1.11.7
+      viewerjs: 1.11.8
 
   vitepress@1.6.4(@algolia/client-search@5.56.0)(@types/node@22.20.1)(postcss@8.5.19)(sass-embedded@1.100.0)(sass@1.100.0)(search-insights@2.17.3)(typescript@4.9.5):
     dependencies:
