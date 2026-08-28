@@ -1,3 +1,11 @@
+## 2026-08-28 潮汐塑造的传奇
+
+涨潮时的圣米歇尔山，芒什省，诺曼底，法国 (© Clement LEONARD/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2026-08-27 湖水、野生动物与奇景
 
 日出时的小红鹳群，马加迪湖，肯尼亚 (© Denis-Huot/Nature Picture Library)
@@ -237,12 +245,4 @@
 ![](https://cn.bing.com/th?id=OHR.ChicagoTiffany_ZH-CN9860688834_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.ChicagoTiffany_ZH-CN9860688834_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.ChicagoTiffany_ZH-CN9860688834_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2026-07-26 海陆际会，生机肇始
-
-红树上的日出在小猪群岛，洪都拉斯 (© Mac Stone/Tandem Stills + Motion)
-
-![](https://cn.bing.com/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
