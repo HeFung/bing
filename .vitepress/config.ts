@@ -16,12 +16,10 @@ export default defineConfig({
       infoLabel: '信息',
       detailsLabel: '详细信息'
     },
-    config: (md) => {
-    }
   },
   sitemap: {
     hostname: 'https://hefung.github.io/bing/',
-    transformItems(items) {
+    transformItems(items: any[]) {
       return items.filter((item) => !item.url.includes('migration'))
     }
   },
@@ -37,15 +35,10 @@ export default defineConfig({
       ['meta', { name: 'og:description', content: '必应每日超清壁纸（4K）' }],
   ],
 
-  base: '/bing/',
+  base: process.env.GITHUB_ACTIONS === 'true' ? '/bing/' : '/',
   srcDir: 'docs',
   lastUpdated: true,
   cleanUrls: true,
-  locales: {
-    root: { label: '简体中文' },
-    en: { label: '英文' },
-  },
-
   themeConfig: {
     logo: { src: '/logo.svg', width: 24, height: 24 },
     outline: 'deep', // 索引级别
