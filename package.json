@@ -21,7 +21,7 @@
     "canvas-confetti": "^1.9.4",
     "node-fetch": "^3.3.2",
     "prettier": "3.9.8",
-    "sass-embedded": "^1.104.1",
+    "sass-embedded": "^1.105.0",
     "tsup": "^8.5.1",
     "typescript": "^7.0.2",
     "vitepress": "^1.6.4",
