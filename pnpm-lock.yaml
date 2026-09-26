@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^26.6.2
-        version: 26.6.2
+        specifier: ^26.6.3
+        version: 26.6.3
       '@types/node-fetch':
         specifier: ^2.6.13
         version: 2.6.13
@@ -34,7 +34,7 @@ importers:
         version: 7.0.2
       vitepress:
         specifier: ^1.6.4
-        version: 1.6.4(@algolia/client-search@5.59.0)(@types/node@26.6.2)(postcss@8.5.28)(sass-embedded@1.105.0)(sass@1.105.0)(search-insights@2.17.3)(typescript@7.0.2)
+        version: 1.6.4(@algolia/client-search@5.59.0)(@types/node@26.6.3)(postcss@8.5.28)(sass-embedded@1.105.0)(sass@1.105.0)(search-insights@2.17.3)(typescript@7.0.2)
       vitepress-plugin-image-viewer:
         specifier: ^1.1.6
         version: 1.1.6
@@ -748,8 +748,8 @@ packages:
   '@types/node-fetch@2.6.13':
     resolution: {integrity: sha512-QGpRVpzSaUs30JBSGPjOg4Uveu384erbHBoT1zeONvyCfwQxIkUshLAOqN/k9EjGviPRmWTTe6aH2qySWKTVSw==}
 
-  '@types/node@26.6.2':
-    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
+  '@types/node@26.6.3':
+    resolution: {integrity: sha512-dsqMQQoeTLqu9wynDD00q573mNzso3IdQOAfHRJqLCcmCFPoGo9A1bDpUcv/9tnKpErQWv9uKeGfl37EIS02Yg==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1046,8 +1046,8 @@ packages:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  copy-anything@4.1.2:
-    resolution: {integrity: sha512-BCcj+KrMmRisei4xxFKJDWIpUmuDA4S02vrkaozhgF0FZLd+rNLbGZ1lXmVillt/dTGmkjIJ9xWnlP+T+4x40w==}
+  copy-anything@4.1.4:
+    resolution: {integrity: sha512-/LLeW0CtsoSybVkEpYjifB2Pis8DUSuwY7QD9FiR98fWkdbdrACw3ilckfnAHMecQ+RFEdZlRt6eCXhYHJbl/g==}
     engines: {node: '>=18'}
 
   csstype@3.2.3:
@@ -1247,8 +1247,8 @@ packages:
   micromark-util-symbol@2.0.1:
     resolution: {integrity: sha512-vs5t8Apaud9N28kgCrRUdEed4UJ+wWNvicHLPxCa9ENlYuAY31M0ETy5y1vA33YoNPDFTghEbnh6efaE8h4x0Q==}
 
-  micromark-util-types@2.0.2:
-    resolution: {integrity: sha512-Yw0ECSpJoViF1qTU4DC6NwtC4aWGt1EkzaQB8KPPyCRR8z9TWeV0HbEFGTO+ZY1wB22zmxnJqhPyTpOVCpeHTA==}
+  micromark-util-types@2.0.3:
+    resolution: {integrity: sha512-oxB2Ik03hI0gv+VNn9tnh1t1YEe9MDPptViAEgfdf3YQHsn0pzGTgCdlSCJXcwhqm8phaEuM7zeEu3QQzVBrPg==}
 
   mime-db@1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
@@ -2219,10 +2219,10 @@ snapshots:
 
   '@types/node-fetch@2.6.13':
     dependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
       form-data: 4.0.6
 
-  '@types/node@26.6.2':
+  '@types/node@26.6.3':
     dependencies:
       undici-types: 8.9.0
 
@@ -2292,9 +2292,9 @@ snapshots:
 
   '@ungap/structured-clone@1.4.0': {}
 
-  '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@26.6.2)(sass-embedded@1.105.0)(sass@1.105.0))(vue@3.5.43(typescript@7.0.2))':
+  '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@26.6.3)(sass-embedded@1.105.0)(sass@1.105.0))(vue@3.5.43(typescript@7.0.2))':
     dependencies:
-      vite: 5.4.21(@types/node@26.6.2)(sass-embedded@1.105.0)(sass@1.105.0)
+      vite: 5.4.21(@types/node@26.6.3)(sass-embedded@1.105.0)(sass@1.105.0)
       vue: 3.5.43(typescript@7.0.2)
 
   '@vue/compiler-core@3.5.43':
@@ -2464,7 +2464,7 @@ snapshots:
 
   consola@3.4.2: {}
 
-  copy-anything@4.1.2: {}
+  copy-anything@4.1.4: {}
 
   csstype@3.2.3: {}
 
@@ -2698,7 +2698,7 @@ snapshots:
   micromark-util-character@2.1.1:
     dependencies:
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.2
+      micromark-util-types: 2.0.3
 
   micromark-util-encode@2.0.1: {}
 
@@ -2710,7 +2710,7 @@ snapshots:
 
   micromark-util-symbol@2.0.1: {}
 
-  micromark-util-types@2.0.2: {}
+  micromark-util-types@2.0.3: {}
 
   mime-db@1.52.0: {}
 
@@ -2981,7 +2981,7 @@ snapshots:
 
   superjson@2.2.6:
     dependencies:
-      copy-anything: 4.1.2
+      copy-anything: 4.1.4
 
   supports-color@8.1.1:
     dependencies:
@@ -3110,13 +3110,13 @@ snapshots:
 
   viewerjs@1.15.0: {}
 
-  vite@5.4.21(@types/node@26.6.2)(sass-embedded@1.105.0)(sass@1.105.0):
+  vite@5.4.21(@types/node@26.6.3)(sass-embedded@1.105.0)(sass@1.105.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.28
       rollup: 4.63.5
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
       fsevents: 2.3.3
       sass: 1.105.0
       sass-embedded: 1.105.0
@@ -3125,7 +3125,7 @@ snapshots:
     dependencies:
       viewerjs: 1.15.0
 
-  vitepress@1.6.4(@algolia/client-search@5.59.0)(@types/node@26.6.2)(postcss@8.5.28)(sass-embedded@1.105.0)(sass@1.105.0)(search-insights@2.17.3)(typescript@7.0.2):
+  vitepress@1.6.4(@algolia/client-search@5.59.0)(@types/node@26.6.3)(postcss@8.5.28)(sass-embedded@1.105.0)(sass@1.105.0)(search-insights@2.17.3)(typescript@7.0.2):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.59.0)(search-insights@2.17.3)
@@ -3134,7 +3134,7 @@ snapshots:
       '@shikijs/transformers': 2.5.0
       '@shikijs/types': 2.5.0
       '@types/markdown-it': 14.2.0
-      '@vitejs/plugin-vue': 5.2.4(vite@5.4.21(@types/node@26.6.2)(sass-embedded@1.105.0)(sass@1.105.0))(vue@3.5.43(typescript@7.0.2))
+      '@vitejs/plugin-vue': 5.2.4(vite@5.4.21(@types/node@26.6.3)(sass-embedded@1.105.0)(sass@1.105.0))(vue@3.5.43(typescript@7.0.2))
       '@vue/devtools-api': 7.7.10
       '@vue/shared': 3.5.43
       '@vueuse/core': 12.8.2(typescript@7.0.2)
@@ -3143,7 +3143,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 2.5.0
-      vite: 5.4.21(@types/node@26.6.2)(sass-embedded@1.105.0)(sass@1.105.0)
+      vite: 5.4.21(@types/node@26.6.3)(sass-embedded@1.105.0)(sass@1.105.0)
       vue: 3.5.43(typescript@7.0.2)
     optionalDependencies:
       postcss: 8.5.28
